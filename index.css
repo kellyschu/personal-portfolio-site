@@ -1,0 +1,9 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    color: hwb(258 0% 47%);
+    font-family: 'Muli', sans-serif;
+}
+.hero-img {
+    width: 200px;
+}
