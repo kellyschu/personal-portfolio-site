@@ -1,0 +1,31 @@
+.about__container {
+    color: #7272a4;
+    background-color: rgba(245, 245, 245); 
+    padding: 5px 10px;
+    border-radius: 15px;  
+    margin: 30px 20px;
+    width: 840px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+h2 {
+    color: #9e9ed8;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+img {
+    margin-top: 40px;
+    border-radius: 30px;
+    margin-left: 70px;
+    transform: scale(1.52);
+    transition: transform .8s linear;
+    z-index: -1;
+    box-shadow: -12px 0px 4px #6767935a;
+}
+.top {
+    margin-top: 70px;
+}
+button {
+    margin-bottom: 20px;
+}
