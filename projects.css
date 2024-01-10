@@ -38,9 +38,13 @@ h3 {
     border-top: #7272a4 1px solid;
     padding-top: 7px;
 }
-.code-img {
+.project-img-wide {
+    max-width: 750px;
+    padding: 40px;
+    height: auto;
+}
+.project-img-tall {
     max-height: 600px;
     width: auto;
     padding: 40px;
-    
 }
