@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KSD -Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kelly Schu Contact</title>
     <link rel="stylesheet" href="../index.css">
     <link rel="stylesheet" href="../styles/contact.css">
 </head>
@@ -20,8 +21,23 @@
     </header>
     <main>
         <h1>Lets Get Connected!</h1>
-        <h2>Fill out the form below and I will get back to you as soon as possible.</h2>
+        <div class="display-flex__column">
+            <h2>Have a question or want to work together?</h2>
+            <h2>Feel free to reach out to me via</h2>
+        </div>
+        <div class="display-flex">
+            <button>
+                <a href="tel:+14437867545"><i class="fa-solid fa-mobile"></i>Mobile</a>
+            </button>
+            <button>
+                <a href="mailto:kschumacher93@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a>
+            </button>
+            <button>
+                <a href="https://www.linkedin.com/in/kellyschumacher/"  target="_blank"><i class="fa-solid fa-user-group"></i>LinkedIn</a>
+            </button>
+        </div>
         <form action="mailto:kschumacher93@gmail.com" method="post" enctype="text/plain">
+            <h2>Fill out the form and I will get back to you as soon as possible.</h2>
             <label for="name">Name</label>
             <input required type="text" name="name" id="name" placeholder="Enter your name">
             <label for="email">Email</label>
