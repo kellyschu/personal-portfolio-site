@@ -60,3 +60,16 @@ h3 i {
 .dark {
     max-width: 500px;
 }
+p {
+    font-size: 1.25rem;
+    max-width: 500px;
+    text-align: center;
+    font-weight: 700;
+    /* margin-top: 80px; */
+    line-height: 2.2rem;
+    border-bottom: 2px dotted #7272a4;
+}
+p + video {
+    padding: 10px;
+    margin-bottom: 50px;
+}
