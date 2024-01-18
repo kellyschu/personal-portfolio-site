@@ -42,6 +42,7 @@ h3 {
     width: auto;
     padding: 40px;
     margin: 0 auto;
+    border-radius: 10%;
 }
 a {
     padding-top: 17px;
@@ -72,4 +73,7 @@ p {
 p + video {
     padding: 10px;
     margin-bottom: 50px;
+}
+button {
+    margin-bottom: 0;
 }
