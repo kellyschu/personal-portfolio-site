@@ -7,6 +7,10 @@
     width: 840px;
     text-align: center;
     box-sizing: content-box;
+    background-image: url("../../assets/images/headshots/color.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 h2 {
@@ -22,10 +26,4 @@ img {
     transition: transform .8s linear;
     z-index: -1;
     box-shadow: -12px 0px 4px #6767935a;
-}
-.top {
-    margin-top: 70px;
-}
-button {
-    margin-bottom: 20px;
 }
