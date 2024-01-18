@@ -9,6 +9,7 @@
     min-width: 0;
 }
 body {
+    margin: 0;
     font-size: calc(.75rem + 0.25vw);
     min-height: 100dvh;
     background: rgb(211,212,251);
@@ -61,12 +62,12 @@ nav ul li a {
     text-shadow: #cccde4 8px 8px 8px;
 }
 nav ul li a:hover {
-    color: #676ecf;
+    color: whitesmoke;
     padding-bottom: 5px;
-    border-bottom: 3.5px solid#676ecf;
     cursor: pointer;
     transition: all 0.1s linear;
 }
+
 .display-flex {
     display: flex;
     flex-wrap: wrap;
@@ -80,7 +81,7 @@ nav ul li a:hover {
     border-radius: 19%;
     box-shadow: -12px -10px 4px #6767935a;
 }
-.headline h2 {
+.headline h3 {
     margin-left: 25px;
     max-width: 450px;
     /* font-size: 1.1rem; */
@@ -93,6 +94,7 @@ nav ul li a:hover {
 button {
     border: none;
     margin-left: 22px;
+    margin-bottom: 20px;
     padding: 10px 25px;
     border-radius: 5px;
     background-color:  rgba(136, 143, 234, 0.785);
@@ -135,4 +137,23 @@ i {
     color: white;
     /* font-size: 1.25rem; */
     margin: 0 10px 0 0;
+}
+header {
+    background: linear-gradient(-50deg,   rgba(211,212,251) -5%, rgb(171, 176, 255) 10%,  rgba(229, 229, 248) 70%,  rgba(211,212,251) 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    line-height: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+main {
+    padding-top: 5rem;
+}
+.home {
+    padding-top: 5.75em;
+}
+.headline:first-child {
+    line-height: .8;
 }
