@@ -53,7 +53,9 @@ nav ul {
     /* font-size: 1.1rem; */
     gap: 30px;
 }
+
 nav ul li a {
+    padding-top: 17px;
     text-transform: uppercase;
     /* font-size: .98rem; */
     letter-spacing: .13rem;
@@ -99,7 +101,6 @@ button {
     border-radius: 5px;
     background-color:  rgba(136, 143, 234, 0.785);
     color: #fff;
-    /* font-size: 1.05rem; */
     font-weight: 500;
 }
 button:hover {
@@ -114,7 +115,6 @@ video {
 }
 h4 {
     text-transform: uppercase;
-    /* font-size: .98rem; */
     letter-spacing: .03rem;
     font-weight: 300;
     color: #676793;
@@ -135,7 +135,6 @@ footer {
 }
 i {
     color: white;
-    /* font-size: 1.25rem; */
     margin: 0 10px 0 0;
 }
 header {
@@ -156,4 +155,13 @@ main {
 }
 .headline:first-child {
     line-height: .8;
+}
+@media screen and (max-width: 875px) {
+    nav ul {
+        gap: 20px;
+    }
+    button {
+        margin: 0 5px;
+        padding: 7px;
+    }
 }
