@@ -95,13 +95,13 @@ nav ul li a:hover {
 }
 button {
     border: none;
-    margin-left: 22px;
-    margin-bottom: 20px;
+    margin: 20px 10px;
     padding: 10px 25px;
     border-radius: 5px;
     background-color:  rgba(136, 143, 234, 0.785);
     color: #fff;
     font-weight: 500;
+    font-size: large;
 }
 button:hover {
     background-color: #676ecf;
@@ -161,7 +161,8 @@ main {
         gap: 20px;
     }
     button {
-        margin: 0 5px;
+        margin: 5px;
         padding: 7px;
+        font-size: small;
     }
 }
