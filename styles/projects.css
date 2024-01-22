@@ -44,9 +44,6 @@ h3 {
     margin: 0 auto;
     border-radius: 10%;
 }
-a {
-    padding-top: 17px;
-}
 h3 i {
     color: rgb(148, 151, 239);
     padding: 0 11px 0 9px;
@@ -76,4 +73,40 @@ p + video {
 }
 button {
     margin-bottom: 0;
+}
+@media screen and (max-width: 875px) {
+    .project__container {
+        width: 90%;
+        margin: 10px;
+    }
+    .project-img-wide {
+        max-width: 100%;
+        padding: 10px;
+    }
+    .project-img-tall {
+        max-height: 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+    h1 {
+        margin-top: 1.6rem;
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    video {
+        max-width: 100%;
+        padding: 10px 0 10px 0;
+    }
+    p + video {
+        padding: 0;
+        margin: 0 0 30px;
+    }
 }
