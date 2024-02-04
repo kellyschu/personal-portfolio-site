@@ -2,4 +2,4 @@
 
 ## Deployed to Netlify
 
-Check out my [Portfolio Site](https://kellyschumacher.netlify.app/) here!
+Check out my [Portfolio Site](https://kellyschuportfolio.com) here!
