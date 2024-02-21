@@ -13,7 +13,7 @@
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../pages/about.html">About</a></li>
-                    <li><a href="../pages/projects.html">Projects</a></li>
+                    <li><a href="../pages/portfoliopieces.html">Projects</a></li>
                     <li><a href="../pages/contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -35,7 +35,7 @@
                     </div>
                     <img class="project-img-wide" src="https://placehold.co/500x300/7272a4/FFF?text=50+Projects+50+Days" alt="website">
                 </div> -->
-                <div class="project__container display-flex__column">
+                <div id="instock" class="project__container display-flex__column">
                     <h2>Instock</h2> 
                     <h3 class="dark">An innovative inventory management system created using a blend of React.js, Node.js, Express.js, MySQL, Knex.</h3>
                     <a href="https://www.linkedin.com/feed/update/urn:li:activity:7130383699623182336/" target="_blank">
@@ -45,7 +45,7 @@
                         <source src="../assests/videos/React App- InStock SE23ED .mp4" type="video/mp4" />
                     </video>
                 </div>
-                <div class="project__container display-flex__column">
+                <div id="movieapp" class="project__container display-flex__column">
                     <h2>Mock Movie App</h2> 
                     <h3 class="dark">This webpage is built using the Movie Database API, utilizing an API key to enable search functionality. It features color-coded ratings for movies along with concise overviews, providing users with a visually intuitive and informative movie browsing experience.</h3>
                     <div class="display-flex">
@@ -60,7 +60,7 @@
                         <source src="../assests/videos/Mock Movie Site.mp4" type="video/mp4" />
                     </video>
                 </div>
-                <div class="project__container display-flex__column">
+                <div id="podstream"  class="project__container display-flex__column">
                     <h2>Podstream</h2> 
                     <h3 class="dark">A podcast streaming app created using React.js, Node.js, Express.js, MYSQL, Knex. This full-stack application is not only a platform intended for podcast streaming but also integrates a social media dimension.
                         The tech stack includes React for the frontend, Node.js with Express for the backend, Knex for database query building, 
@@ -81,22 +81,30 @@
                         Update user likes and saves in the database through a PATCH request.</h3>
                         <img src="../assests/images/capstonecode.png" alt="code snippet" class="project-img-tall">
                 </div>
-                <div class="project__container display-flex__column">
-                    <h2>Paint App</h2> 
-                    <h3 class="dark">This web application allows users to create freehand drawings on a responsive canvas, featuring adjustable brush size, color selection, and touchscreen compatibility.</h3>
-                    <div class="display-flex">
-                        <a href="https://paintcanvas.netlify.app/" target="_blank">
+
+
+                <div id="paintapp" class="project__container display-flex__column">
+                    <div class="project__text display-flex__column">
+                        <h2>Paint App</h2>
+                        <h3 class="dark">This web application allows users to create freehand drawings on a responsive canvas, featuring adjustable brush size, color selection, and touchscreen compatibility.</h3>
+                        <a href="https://paintcanvas.netlify.app/" target="_blank" class="btn-link">
                             <button class="btn"><i class="fa-solid fa-display"></i>View Website</button>
                         </a>
                         <!-- <a href="https://github.com/kellyschu/MovieApp" target="_blank">
                             <button class="btn"><i class="fa-brands fa-github"></i>View Codebase</button>
                         </a> -->
                     </div>
-                    <video width="750" controls id="video" class="video" preload="metadata" autoplay="" loop="" muted="" >
-                        <source src="../assests/videos/paintapp.mp4" type="video/mp4" />
-                    </video>
+                
+                    <div class="project__video">
+                        <video width="450" controls id="video" class="video" preload="metadata" loop="" muted="">
+                            <source src="../assests/videos/paintapp.mp4" type="video/mp4" />
+                        </video>
+                    </div>
                 </div>
-                <div class="project__container display-flex__column">
+                
+
+
+                <div id="moreprojects" class="project__container display-flex__column">
                     <h2>Additional Projects</h2> 
                     <h3 class="dark">Made with Vanilla JavaScript and a few lines of code</h3>
                     <p>Progress Steps</p>
